@@ -21,15 +21,23 @@
 .wrapper {
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #f9f9f9;
   height: 100vh;
 }
 
+.wrapper h1 {
+    color: #999;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
 .container {
   max-width: 90%;
-  margin: 80px auto;
+  margin: 0 auto;
   padding: 40px 10px;
   line-height: 3rem;
   background: #fff;
