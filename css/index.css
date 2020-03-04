@@ -57,11 +57,13 @@ input[type="button"]::focus {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 80%;
+  color: #343434;
   margin: 0 auto;
   padding: 40px 10px;
   line-height: 3rem;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #fff;
 }
 .container input {
   margin-bottom: 0;
