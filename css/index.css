@@ -36,12 +36,18 @@ input[type="button"]::focus {
   align-items: center;
   background: #f9f9f9;
   height: 100vh;
-  background: url(https://source.unsplash.com/daily/1600x900) no-repeat;
-  background-size: cover;
+  background: #efefef;
+  /*background: url(https://source.unsplash.com/daily/1600x900) no-repeat;
+  background-size: cover;*/
+}
+
+.words {
+ max-width: 80%;
+ margin: 0 auto 20px
 }
 
 .container {
-  max-width: 80%;
+  position: relative;
   color: #343434;
   margin: 0 auto 6px;
   padding: 20px 10px;
