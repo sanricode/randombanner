@@ -45,6 +45,8 @@ input[type="button"]::focus {
   align-items: center;
   background: #f9f9f9;
   height: 100vh;
+  background: url(https://source.unsplash.com/daily) no-repeat;
+  background-size: cover;
 }
 
 .wrapper h1 {
