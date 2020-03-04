@@ -138,22 +138,22 @@ $(function() {
     var bansize_length = bansize.length;
     var banshop_length = banshop.length;
     var bangoal_length = bangoal.length;
-    // var banclient_length = banclient.length;
+    var banclient_length = banclient.length;
 
     var bansize_random = Math.floor(Math.random()*bansize_length);
     var banshop_random = Math.floor(Math.random()*banshop_length);
     var bangoal_random = Math.floor(Math.random()*bangoal_length);
-    // var banclient_random = Math.floor(Math.random()*banclient_length);
+    var banclient_random = Math.floor(Math.random()*banclient_length);
 
     var bansize_text = bansize[bansize_random];
     var banshop_text = banshop[banshop_random];
     var bangoal_text = bangoal[bangoal_random];
-    // var banclient_text = banclient[banclient_random];
+    var banclient_text = banclient[banclient_random];
 
     $("#bansize").html( bansize_text );
     $("#banshop").html( banshop_text );
     $("#bangoal").html( bangoal_text );
-    // $("#banclient").html( banclient_text );
+    $("#banclient").html( banclient_text );
 
     //今後の成長にご期待ください
 
