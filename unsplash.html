@@ -11,19 +11,28 @@
 
   <div class="wrapper" id="wrapper">
 
-    <div class="container">
-
-      <p>
-      主役：<span id="bansize" class="bansize"></span><br>
-      背景：<span id="banshop" class="banshop"></span><br>
-      演出・特殊効果：<span id="bangoal" class="bangoal"></span><br>
-      助演・小道具：<span id="banclient" class="banclient"></span><br>
-      </p>
-      
-      <input type="button" value="更新" onClick="window.location.reload();">
-
+    <div class="container main">
+      <span class="label">主役</span>
+      <span id="bansize" class="bansize"></span>
     </div>
 
+    <div class="container bg">
+      <span class="label">背景</span>
+      <span id="banshop" class="banshop"></span>
+    </div>    
+
+    <div class="container effects">
+      <span class="label">演出・特殊効果</span>
+      <span id="banshop" class="bangoal"></span>
+    </div>
+
+    <div class="container sub">
+      <span class="label">助演・小道具</span>
+      <span id="banclient" class="banclient"></span>
+    </div>    
+    
+    <input type="button" value="更新" onClick="window.location.reload();">    
+    
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
