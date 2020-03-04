@@ -15,6 +15,10 @@ input[type="button"] {
   border: none;
   box-sizing: border-box;
   cursor: pointer;
+  width: 60%;
+  height: 60px;
+  font-size: 1.8rem;
+  font-weight: 100;
 }
 input[type="submit"]::-webkit-search-decoration,
 input[type="button"]::-webkit-search-decoration {
@@ -42,7 +46,7 @@ input[type="button"]::focus {
 }
 
 .words {
- max-width: 80%;
+ width: 80%;
  margin: 0 auto 20px
 }
 
@@ -50,10 +54,11 @@ input[type="button"]::focus {
   position: relative;
   color: #343434;
   margin: 0 auto 6px;
-  padding: 20px 10px;
+  padding: 14px 10px;
   line-height: 3rem;
   background: rgba(255, 255, 255, 0.7);
   border: 1px solid #fff;
+  list-style: none;
 }
 .container input {
   margin-bottom: 0;
@@ -67,26 +72,15 @@ input[type="button"]::focus {
 /*  */
 
 .banshop,
-.bangoal {
-  font-weight: 600;
-}
-
-.bansize {
-  font-weight: 600;
-}
-
-.bansize span {
-  font-size: 1rem;
-  font-weight: normal;
-}
-
+.bangoal,
+.bansize,
 .banclient {
-  font-weight: 600;
+  font-weight: 100;
 }
 
 .label {
   position: absolute;
   left: 8px;
   top: 0;
-  font-size: 10px;
+  font-size: 8px;
 }
