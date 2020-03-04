@@ -78,7 +78,7 @@ input[type="button"]::focus {
   font-weight: 600;
 }
 
-label {
+.label {
   position: absolute;
   left: 8px;
   top: 0;
