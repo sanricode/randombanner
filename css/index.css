@@ -10,39 +10,14 @@ button {
   color: #343434;
   background: transparent;
   border: 0.1rem #efefef solid;
+  height: 7.2rem;
+  line-height: 3.0rem;
 }
 button:hover {
-  color: #343434;
+  color: #666;
   background: transparent;
-  border: 0.1rem #343434 solid;
+  border: 0.1rem #efefef solid;
 }
-/* input[type="submit"],
-input[type="button"] {
-  border-radius: 0;
-  -webkit-box-sizing: content-box;
-  -webkit-appearance: button;
-  appearance: button;
-  border: none;
-  box-sizing: border-box;
-  cursor: pointer;
-  width: 60%;
-  height: 60px;
-  font-size: 1.8rem;
-  font-weight: 100;
-}
-input[type="submit"]::-webkit-search-decoration,
-input[type="button"]::-webkit-search-decoration {
-  display: none;
-}
-input[type="submit"]::focus,
-input[type="button"]::focus {
-  outline-offset: -2px;
-} */
-
-/* button {
-  font-family: FontAwesome;
-} */
-
 
 /*  */
 
@@ -57,8 +32,8 @@ input[type="button"]::focus {
 }
 
 .words {
- width: 80%;
- margin: 0 auto 20px
+   width: 80%;
+   margin: 0 auto 40px;
 }
 
 .container {
@@ -93,12 +68,10 @@ input[type="button"]::focus {
   font-size: 8px;
 }
 
-.link_unsplash {
-  position: absolute;
-  bottom: 2px;
-  right: 5px;
-  font-size: 8px;
+.button_reflesh img {
+  width: 18px;
 }
-.link_unsplash a {
-  color: #ccc;
+
+.button_reflesh p {
+  margin-bottom: 0;
 }
