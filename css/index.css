@@ -40,9 +40,9 @@ input[type="button"]::focus {
   align-items: center;
   background: #f9f9f9;
   height: 100vh;
-  background: #efefef;
-  /*background: url(https://source.unsplash.com/daily/1600x900) no-repeat;
-  background-size: cover;*/
+  /* background: #efefef; */
+  background: url(https://source.unsplash.com/daily) no-repeat;
+  background-size: cover;
 }
 
 .words {
@@ -71,16 +71,23 @@ input[type="button"]::focus {
 
 /*  */
 
-.banshop,
-.bangoal,
-.bansize,
-.banclient {
+.theme {
   font-weight: 100;
 }
 
 .label {
   position: absolute;
-  left: 8px;
-  top: 0;
+  left: 5px;
+  top: -5px;
   font-size: 8px;
+}
+
+.link_unsplash {
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+  font-size: 8px;
+}
+.link_unsplash a {
+  color: #ccc;
 }
