@@ -6,7 +6,17 @@
   box-sizing: border-box;
 }
 
-input[type="submit"],
+button {
+  color: #343434;
+  background: transparent;
+  border: 0.1rem #efefef solid;
+}
+button:hover {
+  color: #343434;
+  background: transparent;
+  border: 0.1rem #343434 solid;
+}
+/* input[type="submit"],
 input[type="button"] {
   border-radius: 0;
   -webkit-box-sizing: content-box;
@@ -27,7 +37,11 @@ input[type="button"]::-webkit-search-decoration {
 input[type="submit"]::focus,
 input[type="button"]::focus {
   outline-offset: -2px;
-}
+} */
+
+/* button {
+  font-family: FontAwesome;
+} */
 
 
 /*  */
@@ -40,8 +54,6 @@ input[type="button"]::focus {
   align-items: center;
   height: 100vh;
   background: #efefef;
-  /* background: url(https://source.unsplash.com/daily) no-repeat;
-  background-size: cover; */
 }
 
 .words {
