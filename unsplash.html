@@ -3,40 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>チョコザイ</title>
+  <title>Daily Chokozai</title>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon.jpg">
+  <link rel="shortcut icon" href="img/favicon.jpg">
   <link href="css/milligram.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
 </head>
 <body>
 
   <div class="wrapper" id="wrapper">
-    
+
   <ul class="words">
-             
+
     <li class="container main">
       <span class="label">主役</span>
-      <span id="bansize" class="bansize"></span>
+      <span id="bansize" class="theme"></span>
     </li>
 
     <li class="container bg">
       <span class="label">背景</span>
-      <span id="banshop" class="banshop"></span>
-    </li>    
+      <span id="banshop" class="theme"></span>
+    </li>
 
     <li class="container effects">
       <span class="label">演出・特殊効果</span>
-      <span id="bangoal" class="bangoal"></span>
+      <span id="bangoal" class="theme"></span>
     </li>
 
     <li class="container sub">
       <span class="label">助演・小道具</span>
-      <span id="banclient" class="banclient"></span>
+      <span id="banclient" class="theme"></span>
     </li>
-    
+
     </ul>
-    
-    <input type="button" value="更新" onClick="window.location.reload();">    
-    
+
+    <input type="button" value="更新" onClick="window.location.reload();">
+
+    <div class="link_unsplash"><a href="https://source.unsplash.com/daily" target="_blank">https://source.unsplash.com/daily</a></div>
+
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
