@@ -38,7 +38,6 @@ input[type="button"]::focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #f9f9f9;
   height: 100vh;
   background: #efefef;
   /* background: url(https://source.unsplash.com/daily) no-repeat;
