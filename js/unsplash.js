@@ -1,5 +1,6 @@
 
 $(function() {
+
     var bansize = [ //今日の主役
     "男性",
     "女性",
